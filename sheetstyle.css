@@ -1,0 +1,88 @@
+body{
+    width: 600px;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header {
+    background: #fce7c8;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:1px solid #eca944 ;
+    border-right:1px solid#eca944 ;
+    border-left:1px solid#eca944 ;
+}
+.logo {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav {
+    margin-top: 40px; /* navbar turun */
+    margin-right: 20px;
+    display: flex;
+    gap: 20px; /* jarak antar tulisan */
+}
+
+.nav span {
+    font-size: 15px;
+    color: black;
+}
+
+.hero {
+    height: 200px;
+    background: #d8e7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid #6fa4f8 ;
+    border-right:1px solid#6fa4f8 ;
+    border-left:1px solid#6fa4f8 ;
+
+}
+.yellow { 
+    background: #feeeb7;
+    border-top:1px solid #f5bc00;
+    border-right:1px solid #f5bc00;
+    border-left:1px solid #f5bc00;
+}
+.purple { background: #e3d6f1; }
+.green  { background: #d8ecd4; }
+
+.selection {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.selection-title{
+    display: inline-block;
+    padding: 25px 40px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    font-size: 15px;
+    background: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card {
+    width: 28%;
+    text-align: left;
+    font-size: 12px;
+}
